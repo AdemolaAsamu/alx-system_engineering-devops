@@ -1,2 +1,2 @@
-# alx-system_engineering-devops
-Shell Scripting assignment and Navigation
+#!/bin/bash
+This is the read me file
