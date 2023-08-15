@@ -37,3 +37,19 @@ tech.html
 tmp
 unique.html
 ls 0x00-shell_basics
+0-current_working_directory
+0x00-shell_basics
+0x01-shell_permissions
+0x02-shell_redirections
+0x03-shell_variables_expansions
+batching.c
+bufferbranchpro.c
+dynamicmode.c
+header.h
+inphandler.c
+main.c
+prog.c
+README.md
+runbranch.c
+simple_shell
+URM
