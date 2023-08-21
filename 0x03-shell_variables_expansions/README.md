@@ -1,4 +1,7 @@
-This is the Reader file of the 0x03. Sgell, init files, variable and expansions0-alias
+This is the README file for the 0x03 Shell project under DevOPs Sprint
+
+
+0-alias
 100-decimal_to_hexadecimal
 100-decimal_to_hexadecimal~
 101-rot13
@@ -17,5 +20,6 @@ This is the Reader file of the 0x03. Sgell, init files, variable and expansions0
 7-create_global_variable
 8-true_knowledge
 9-divide_and_rule
+git
 README.md
 URM
