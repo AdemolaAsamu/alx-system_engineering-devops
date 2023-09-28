@@ -4,7 +4,11 @@
 for item in *
 do
 	if [[ -f $item ]]; then
-		name=$(echo "$item" | cut -d'-' -f2-)
-		echo "- $name"
+		if [[ "$item" == *-* ]]; then
+			name=$(echo "$item" | cut -d'-' -f2-)
+			echo "- $name"
+		else
+			echo "$item"
+		fi
 	fi
 done
