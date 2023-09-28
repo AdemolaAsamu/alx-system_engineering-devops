@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This is the Bash script that prints Best School 1o times usinguntil loop
+
+idx=0
+
+until [ $idx -eq 10 ]
+do
+	echo "Best School"
+	((idx++))
+done
