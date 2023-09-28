@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This is a bash script that prints time mins and hrs
+
+hour=0
+
+while ((hour<13))
+do
+	echo "Hour: $hour"
+	minute=1
+	while ((minute<60))
+	do
+		echo $minute
+		((minute++))
+	done
+	((hour++))
+done	
