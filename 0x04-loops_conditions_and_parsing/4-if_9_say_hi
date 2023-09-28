@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This is a script that prints best schools and Hi on the 9th loop
+
+idx=0
+
+while ((idx<10))
+do
+	echo "Best School"
+	((idx++))
+	if ((idx==9))
+	then
+		echo "Hi"
+	fi
+done
