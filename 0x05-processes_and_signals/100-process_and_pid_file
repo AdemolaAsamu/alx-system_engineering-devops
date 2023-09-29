@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
 # This is a bash Script of Multiple Maneuvers
-echo $$ > /var/run/myscript.pid
+pid_file = "var/run/myscript.pid"
+
+cleanup(){
+	rm "$pid_file"
+	exit
+}
+
+trap cleanup SIGTERM
+
+echo $$ > "$pid_file"
 while true; do
 	echo "To infinity and beyond"
 	sleep 2
