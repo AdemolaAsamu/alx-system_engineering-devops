@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This is a Bash Script that prints a list of currently running processes
+#
+# - Display user oriented format
+# - Show Process Hierachy
+
+ps -auxf
