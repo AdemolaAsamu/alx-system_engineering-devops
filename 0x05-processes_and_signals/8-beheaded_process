@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This is a kill program for 7-highlanders with Signal SIGTERM
+
+pkill -f --signal SIGKILL 7-highlander
