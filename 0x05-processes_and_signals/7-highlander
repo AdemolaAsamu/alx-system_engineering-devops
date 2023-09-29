@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This is a Bash Scrip of infinte loop
+for (( idx=1; idx>0; idx++ ))
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap 'echo "I am invincible!!!"' SIGTERM
+done
