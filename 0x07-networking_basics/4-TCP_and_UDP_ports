@@ -1,0 +1,3 @@
+#!/bin/bash
+#This is a bash script that prints the listening Socket and PID
+netstat -lntp
