@@ -1,0 +1,11 @@
+#!/bin/bash
+# Get the name of the PROJECT
+project_name=$(basename "$(pwd)")
+
+echo "Alx Systems Engineering DevOPS ($project_name) Repository :" > README.md
+echo " - Author > Ademola ASAMU" >> README.md 
+counter=0
+for item in *; do
+	counter=$((counter + 1))
+	echo "> - $counter - $item" >> README.md
+done	
